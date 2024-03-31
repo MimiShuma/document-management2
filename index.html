@@ -1,0 +1,2396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Comment And Feedback</title>
+    <link rel="icon" href="assets/images/logoicon.png" type="image/x-icon">
+
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+        type="text/css">
+    <link href="assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="global_assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="assets/js/main/jquery.min.js"></script>
+    <script src="assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="assets/js/plugins/ui/slinky.min.js"></script>
+    <script src="assets/js/plugins/ui/fab.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="assets/js/plugins/visualization/d3/d3.min.js"></script>
+    <script src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+    <script src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="assets/js/demo_pages/form_select2.js"></script>
+
+    <script src="assets/js/plugins/uploaders/plupload/plupload.full.min.js"></script>
+    <script src="assets/js/plugins/uploaders/plupload/plupload.queue.min.js"></script>
+    <script src="assets/js/demo_pages/uploader_plupload.js"></script>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/demo_pages/dashboard.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/streamgraph.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/sparklines.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/lines.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/areas.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/donuts.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/bars.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/progress.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/heatmaps.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/pies.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/bullets.js"></script>
+    <!-- /theme JS files -->
+</head>
+
+<body>
+    <!-- navbar  -->
+    <div class="navbar navbar-dark navbar-expand-xl mb-2">
+        <div class="navbar-brand">
+            <a href="index.html" class="d-inline-block">
+                <h1 class="text-white">Document Management</h1>
+            </a>
+        </div>
+
+        <div class="d-xl-none">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo1-mobile">
+                <i class="icon-grid3"></i>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-demo1-mobile">
+            <ul class="navbar-nav ml-xl-auto">
+                <li class="nav-item">
+                    <a href="#" class="navbar-nav-link">
+                        <i class="icon-bell2"></i>
+                        <span class="d-xl-none ml-2">Notifications</span>
+                        <span class="badge badge-pill bg-warning-400 ml-auto ml-xl-0">2</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="navbar-nav-link">
+                        <i class="icon-bubbles4"></i>
+                        <span class="d-xl-none ml-2">Messages</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown dropdown-user">
+                    <a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle"
+                        data-toggle="dropdown">
+                        <img src="./assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34"
+                            alt="">
+                        <span>User</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Another action</a>
+                        <a href="#" class="dropdown-item">Something else here</a>
+                        <a href="#" class="dropdown-item">One more line</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/ navbar  -->
+
+    <!-- tab content  -->
+    <div class="card">
+
+        <div class="card-body">
+            <div class="d-md-flex">
+                <ul class="nav nav-tabs nav-tabs-vertical flex-column mr-md-3 wmin-md-200 mb-md-0 border-bottom-0">
+                    <li class="nav-item"><a href="#vertical-left-tab1" class="nav-link active" data-toggle="tab"><i
+                                class="icon-menu7 mr-2"></i> File Upload</a></li>
+                    <li class="nav-item"><a href="#vertical-left-tab2" class="nav-link" data-toggle="tab"><i
+                                class="icon-mention mr-2"></i> Notification<span
+                                class="badge badge-danger badge-pill ml-2">23</span></a></li>
+                    <li class="nav-item"><a href="#vertical-left-tab3" class="nav-link" data-toggle="tab"><i
+                                class="icon-mention mr-2"></i> Inbox</a></li>
+                    <li class="nav-item"><a href="#comment-archived2" class="nav-link" data-toggle="tab"><i
+                                class="icon-mention mr-2"></i> Archive</a></li>
+                </ul>
+
+                <div class="tab-content w-100">
+                    <!-- file upload  -->
+                    <div class="tab-pane fade active show" id="vertical-left-tab1">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="file-uploader" id="o_1hq9a1833nk47p7b81irn1qab2"
+                                    style="position: relative;">
+                                    <div class="plupload_wrapper plupload_scroll">
+                                        <div id="o_1hq9a1833nk47p7b81irn1qab2_container" class="plupload_container"
+                                            title="Using runtime: html5">
+                                            <div class="plupload">
+                                                <div class="plupload_header">
+                                                    <div class="plupload_header_content">
+                                                        <div class="plupload_header_title">Select files</div>
+                                                        <div class="plupload_header_text">Add files to the upload queue
+                                                            and
+                                                            click the start button.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="plupload_content">
+                                                    <div class="plupload_filelist_header">
+                                                        <div class="plupload_file_name">Filename</div>
+                                                        <div class="plupload_file_action">&nbsp;</div>
+                                                        <div class="plupload_file_status"><span>Status</span></div>
+                                                        <div class="plupload_file_size">Size</div>
+                                                        <div class="plupload_clearer">&nbsp;</div>
+                                                    </div>
+                                                    <ul id="o_1hq9a1833nk47p7b81irn1qab2_filelist"
+                                                        class="plupload_filelist">
+                                                        <li class="plupload_droptext">Drag files here.</li>
+                                                    </ul>
+                                                    <div class="plupload_filelist_footer">
+                                                        <div class="plupload_file_name">
+                                                            <div class="plupload_buttons"><a href="#"
+                                                                    class="plupload_button plupload_add"
+                                                                    id="o_1hq9a1833nk47p7b81irn1qab2_browse"
+                                                                    style="position: relative; z-index: 1;">Add a
+                                                                    File</a><a href="#"
+                                                                    class="plupload_button plupload_start plupload_disabled">Start
+                                                                    Upload</a></div><span
+                                                                class="plupload_upload_status"></span>
+                                                        </div>
+                                                        <div class="plupload_file_action"></div>
+                                                        <div class="plupload_file_status"><span
+                                                                class="plupload_total_status">0%</span></div>
+                                                        <div class="plupload_file_size"><span
+                                                                class="plupload_total_file_size">0
+                                                                b</span></div>
+                                                        <div class="plupload_progress">
+                                                            <div class="plupload_progress_container">
+                                                                <div class="plupload_progress_bar"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="plupload_clearer">&nbsp;</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><input type="hidden" id="o_1hq9a1833nk47p7b81irn1qab2_count"
+                                            name="o_1hq9a1833nk47p7b81irn1qab2_count" value="0">
+                                    </div>
+                                    <div id="html5_1hq9a18441ff15m010td4qvtsb5_container"
+                                        class="moxie-shim moxie-shim-html5"
+                                        style="position: absolute; top: 317px; left: 22px; width: 83px; height: 36px; overflow: hidden; z-index: 0;">
+                                        <input id="html5_1hq9a18441ff15m010td4qvtsb5" type="file"
+                                            style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+                                            multiple="" accept=".jpg,.gif,.png" tabindex="-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header header-elements-sm-inline">
+                                                    <h6 class="card-title">Upload your document</h6>
+
+                                                </div>
+
+
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ file upload  -->
+
+                    <!--task manager  -->
+                    <div class="tab-pane fade" id="vertical-left-tab2">
+                        <div class="card">
+
+                            <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer">
+                                <div class="datatable-header">
+                                    <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                                        <label><span>Filter:</span> <input type="search" class=""
+                                                placeholder="Type to filter..."
+                                                aria-controls="DataTables_Table_0"></label>
+                                    </div>
+                                    <div class="dataTables_length" id="DataTables_Table_0_length">
+                                        <label><span>Show:</span> <select name="DataTables_Table_0_length"
+                                                aria-controls="DataTables_Table_0" class="select2-hidden-accessible"
+                                                tabindex="-1" aria-hidden="true" data-select2-id="308">
+                                                <option value="15">15</option>
+                                                <option value="25" data-select2-id="310">25</option>
+                                                <option value="50">50</option>
+                                                <option value="75">75</option>
+                                                <option value="100">100</option>
+                                            </select><span class="select2 select2-container select2-container--default"
+                                                dir="ltr" data-select2-id="309" style="width: auto;"><span
+                                                    class="selection"><span
+                                                        class="select2-selection select2-selection--single"
+                                                        role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                        tabindex="0" aria-disabled="false"
+                                                        aria-labelledby="select2-DataTables_Table_0_length-m1-container"><span
+                                                            class="select2-selection__rendered"
+                                                            id="select2-DataTables_Table_0_length-m1-container"
+                                                            role="textbox" aria-readonly="true"
+                                                            title="25">25</span><span class="select2-selection__arrow"
+                                                            role="presentation"><b
+                                                                role="presentation"></b></span></span></span><span
+                                                    class="dropdown-wrapper" aria-hidden="true"></span></span></label>
+                                    </div>
+                                </div>
+                                <div class="datatable-scroll-lg">
+                                    <table class="table tasks-list table-lg dataTable no-footer" id="DataTables_Table_0"
+                                        role="grid" aria-describedby="DataTables_Table_0_info">
+                                        <thead>
+                                            <tr role="row">
+                                                <th class="sorting_desc" tabindex="0" aria-controls="DataTables_Table_0"
+                                                    rowspan="1" colspan="1" aria-sort="descending"
+                                                    aria-label="#: activate to sort column ascending"
+                                                    style="width: 20px;">#</th>
+                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                    rowspan="1" colspan="1"
+                                                    aria-label="Task Description: activate to sort column ascending"
+                                                    style="width: 40%;">Task Description</th>
+                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                    rowspan="1" colspan="1"
+                                                    aria-label="Priority: activate to sort column ascending"
+                                                    style="width: 10%;">Priority</th>
+                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                    rowspan="1" colspan="1"
+                                                    aria-label="Latest update: activate to sort column ascending"
+                                                    style="width: 15%;">Latest update</th>
+                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                    rowspan="1" colspan="1"
+                                                    aria-label="Status: activate to sort column ascending"
+                                                    style="width: 15%;">Status</th>
+                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0"
+                                                    rowspan="1" colspan="1"
+                                                    aria-label="Assigned users: activate to sort column ascending"
+                                                    style="width: 15%;">Assigned users</th>
+                                                <th class="text-center text-muted sorting_disabled"
+                                                    style="width: 100px;" rowspan="1" colspan="1" aria-label=""><i
+                                                        class="icon-checkmark3"></i></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr class="table-active table-border-double">
+                                                <td colspan="8" class="font-weight-semibold">Today</td>
+                                            </tr>
+                                            <!-- 1 -->
+                                            <tr role="row" class="odd">
+                                                <td class="sorting_1">#25</td>
+
+                                                <td>
+                                                    <div class="font-weight-semibold"><a href="#comment-page"
+                                                            data-toggle="tab">Save the
+                                                            children</a></div>
+                                                    <div class="text-muted">Lorem ipsum dolor sit amet consectetur,
+                                                        adipisicing elit. Quos, rerum.</div>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="badge bg-danger dropdown-toggle"
+                                                            data-toggle="dropdown">Blocker</a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a href="#" class="dropdown-item active"><span
+                                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                                Blocker</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                                High priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                                Normal priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                                Low priority</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <i class="icon-calendar2 mr-2"></i>
+                                                        <input type="text"
+                                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                                            value="22 January, 15" id="dp1711899399170">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <select name="status"
+                                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                                        data-placeholder="Select status" data-fouc="" tabindex="-1"
+                                                        aria-hidden="true" data-select2-id="85">
+                                                        <option value="open">Open</option>
+                                                        <option value="hold">On hold</option>
+                                                        <option value="resolved" selected="selected"
+                                                            data-select2-id="87">Resolved</option>
+                                                        <option value="dublicate">Dublicate</option>
+                                                        <option value="invalid">Invalid</option>
+                                                        <option value="wontfix">Wontfix</option>
+                                                        <option value="closed">Closed</option>
+                                                    </select><span
+                                                        class="select2 select2-container select2-container--default"
+                                                        dir="ltr" data-select2-id="86" style="width: 100%;"><span
+                                                            class="selection"><span
+                                                                class="select2-selection select2-selection--single"
+                                                                role="combobox" aria-haspopup="true"
+                                                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                                                aria-labelledby="select2-status-5c-container"><span
+                                                                    class="select2-selection__rendered"
+                                                                    id="select2-status-5c-container" role="textbox"
+                                                                    aria-readonly="true"
+                                                                    title="Resolved">Resolved</span><span
+                                                                    class="select2-selection__arrow"
+                                                                    role="presentation"><b
+                                                                        role="presentation"></b></span></span></span><span
+                                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"
+                                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                                            class="icon-plus22"></i></a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="list-icons">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-alarm-add"></i> Check in</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-attachment"></i> Attach
+                                                                    screenshot</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-rotate-ccw2"></i> Reassign</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-pencil7"></i> Edit task</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-cross2"></i> Remove</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <!-- 2 -->
+                                            <tr role="row" class="odd">
+                                                <td class="sorting_1">#23</td>
+
+                                                <td>
+                                                    <div class="font-weight-semibold"><a
+                                                            href="task_manager_detailed.html">New icons set for an iOS
+                                                            app</a></div>
+                                                    <div class="text-muted">A collection of textile samples lay spread
+                                                        out on the table..</div>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="badge bg-primary dropdown-toggle"
+                                                            data-toggle="dropdown">Normal</a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                                Blocker</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                                High priority</a>
+                                                            <a href="#" class="dropdown-item active"><span
+                                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                                Normal priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                                Low priority</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <i class="icon-calendar2 mr-2"></i>
+                                                        <input type="text"
+                                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                                            value="22 January, 15" id="dp1711899399172">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <select name="status"
+                                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                                        data-placeholder="Select status" data-fouc="" tabindex="-1"
+                                                        aria-hidden="true" data-select2-id="103">
+                                                        <option value="open">Open</option>
+                                                        <option value="hold" selected="selected" data-select2-id="105">
+                                                            On hold</option>
+                                                        <option value="resolved">Resolved</option>
+                                                        <option value="dublicate">Dublicate</option>
+                                                        <option value="invalid">Invalid</option>
+                                                        <option value="wontfix">Wontfix</option>
+                                                        <option value="closed">Closed</option>
+                                                    </select><span
+                                                        class="select2 select2-container select2-container--default"
+                                                        dir="ltr" data-select2-id="104" style="width: 100%;"><span
+                                                            class="selection"><span
+                                                                class="select2-selection select2-selection--single"
+                                                                role="combobox" aria-haspopup="true"
+                                                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                                                aria-labelledby="select2-status-lt-container"><span
+                                                                    class="select2-selection__rendered"
+                                                                    id="select2-status-lt-container" role="textbox"
+                                                                    aria-readonly="true" title="On hold">On
+                                                                    hold</span><span class="select2-selection__arrow"
+                                                                    role="presentation"><b
+                                                                        role="presentation"></b></span></span></span><span
+                                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"
+                                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                                            class="icon-plus22"></i></a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="list-icons">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-alarm-add"></i> Check in</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-attachment"></i> Attach
+                                                                    screenshot</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-rotate-ccw2"></i> Reassign</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-pencil7"></i> Edit task</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-cross2"></i> Remove</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr class="table-active table-border-double">
+                                                <td colspan="8" class="font-weight-semibold">Yesterday</td>
+                                            </tr>
+                                            <!-- 3 -->
+                                            <tr role="row" class="odd">
+                                                <td class="sorting_1">#21</td>
+
+                                                <td>
+                                                    <div class="font-weight-semibold"><a
+                                                            href="task_manager_detailed.html">Edit the draft for the
+                                                            icons</a></div>
+                                                    <div class="text-muted">You've got to get enough sleep. Other
+                                                        travelling salesmen..</div>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="badge bg-orange dropdown-toggle"
+                                                            data-toggle="dropdown">High</a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                                Blocker</a>
+                                                            <a href="#" class="dropdown-item active"><span
+                                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                                High priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                                Normal priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                                Low priority</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <i class="icon-calendar2 mr-2"></i>
+                                                        <input type="text"
+                                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                                            value="21 January, 15" id="dp1711899399174">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <select name="status"
+                                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                                        data-placeholder="Select status" data-fouc="" tabindex="-1"
+                                                        aria-hidden="true" data-select2-id="121">
+                                                        <option value="open">Open</option>
+                                                        <option value="hold">On hold</option>
+                                                        <option value="resolved">Resolved</option>
+                                                        <option value="dublicate">Dublicate</option>
+                                                        <option value="invalid" selected="selected"
+                                                            data-select2-id="123">Invalid</option>
+                                                        <option value="wontfix">Wontfix</option>
+                                                        <option value="closed">Closed</option>
+                                                    </select><span
+                                                        class="select2 select2-container select2-container--default"
+                                                        dir="ltr" data-select2-id="122" style="width: 100%;"><span
+                                                            class="selection"><span
+                                                                class="select2-selection select2-selection--single"
+                                                                role="combobox" aria-haspopup="true"
+                                                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                                                aria-labelledby="select2-status-yy-container"><span
+                                                                    class="select2-selection__rendered"
+                                                                    id="select2-status-yy-container" role="textbox"
+                                                                    aria-readonly="true"
+                                                                    title="Invalid">Invalid</span><span
+                                                                    class="select2-selection__arrow"
+                                                                    role="presentation"><b
+                                                                        role="presentation"></b></span></span></span><span
+                                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"
+                                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                                            class="icon-plus22"></i></a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="list-icons">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-alarm-add"></i> Check in</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-attachment"></i> Attach
+                                                                    screenshot</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-rotate-ccw2"></i> Reassign</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-pencil7"></i> Edit task</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-cross2"></i> Remove</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr class="table-active table-border-double">
+                                                <td colspan="8" class="font-weight-semibold">2 days ago</td>
+                                            </tr>
+                                            <!-- 4 -->
+                                            <tr role="row" class="odd">
+                                                <td class="sorting_1">#17</td>
+
+                                                <td>
+                                                    <div class="font-weight-semibold"><a
+                                                            href="task_manager_detailed.html">Another icon set</a></div>
+                                                    <div class="text-muted">A wonderful serenity has taken possession of
+                                                        my entire soul..</div>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="badge bg-success dropdown-toggle"
+                                                            data-toggle="dropdown">Low</a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                                Blocker</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                                High priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                                Normal priority</a>
+                                                            <a href="#" class="dropdown-item active"><span
+                                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                                Low priority</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <i class="icon-calendar2 mr-2"></i>
+                                                        <input type="text"
+                                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                                            value="20 January, 15" id="dp1711899399178">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <select name="status"
+                                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                                        data-placeholder="Select status" data-fouc="" tabindex="-1"
+                                                        aria-hidden="true" data-select2-id="157">
+                                                        <option value="open">Open</option>
+                                                        <option value="hold">On hold</option>
+                                                        <option value="resolved">Resolved</option>
+                                                        <option value="dublicate">Dublicate</option>
+                                                        <option value="invalid" selected="selected"
+                                                            data-select2-id="159">Invalid</option>
+                                                        <option value="wontfix">Wontfix</option>
+                                                        <option value="closed">Closed</option>
+                                                    </select><span
+                                                        class="select2 select2-container select2-container--default"
+                                                        dir="ltr" data-select2-id="158" style="width: 100%;"><span
+                                                            class="selection"><span
+                                                                class="select2-selection select2-selection--single"
+                                                                role="combobox" aria-haspopup="true"
+                                                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                                                aria-labelledby="select2-status-4k-container"><span
+                                                                    class="select2-selection__rendered"
+                                                                    id="select2-status-4k-container" role="textbox"
+                                                                    aria-readonly="true"
+                                                                    title="Invalid">Invalid</span><span
+                                                                    class="select2-selection__arrow"
+                                                                    role="presentation"><b
+                                                                        role="presentation"></b></span></span></span><span
+                                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"
+                                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                                            class="icon-plus22"></i></a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="list-icons">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-alarm-add"></i> Check in</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-attachment"></i> Attach
+                                                                    screenshot</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-rotate-ccw2"></i> Reassign</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-pencil7"></i> Edit task</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-cross2"></i> Remove</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr class="table-active table-border-double">
+                                                <td colspan="8" class="font-weight-semibold">Last week</td>
+                                            </tr>
+                                            <tr role="row" class="even">
+                                                <td class="sorting_1">#12</td>
+
+                                                <td>
+                                                    <div class="font-weight-semibold"><a
+                                                            href="task_manager_detailed.html">Add updated responsive
+                                                            styles</a></div>
+                                                    <div class="text-muted">I should be incapable of drawing a single
+                                                        stroke at the present..</div>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="badge bg-primary dropdown-toggle"
+                                                            data-toggle="dropdown">Normal</a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                                Blocker</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                                High priority</a>
+                                                            <a href="#" class="dropdown-item active"><span
+                                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                                Normal priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                                Low priority</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <i class="icon-calendar2 mr-2"></i>
+                                                        <input type="text"
+                                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                                            value="17 January, 15" id="dp1711899399183">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <select name="status"
+                                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                                        data-placeholder="Select status" data-fouc="" tabindex="-1"
+                                                        aria-hidden="true" data-select2-id="202">
+                                                        <option value="open" data-select2-id="204">Open</option>
+                                                        <option value="hold">On hold</option>
+                                                        <option value="resolved">Resolved</option>
+                                                        <option value="dublicate">Dublicate</option>
+                                                        <option value="invalid">Invalid</option>
+                                                        <option value="wontfix">Wontfix</option>
+                                                        <option value="closed">Closed</option>
+                                                    </select><span
+                                                        class="select2 select2-container select2-container--default"
+                                                        dir="ltr" data-select2-id="203" style="width: 100%;"><span
+                                                            class="selection"><span
+                                                                class="select2-selection select2-selection--single"
+                                                                role="combobox" aria-haspopup="true"
+                                                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                                                aria-labelledby="select2-status-m6-container"><span
+                                                                    class="select2-selection__rendered"
+                                                                    id="select2-status-m6-container" role="textbox"
+                                                                    aria-readonly="true" title="Open">Open</span><span
+                                                                    class="select2-selection__arrow"
+                                                                    role="presentation"><b
+                                                                        role="presentation"></b></span></span></span><span
+                                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"
+                                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                                            class="icon-plus22"></i></a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="list-icons">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-alarm-add"></i> Check in</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-attachment"></i> Attach
+                                                                    screenshot</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-rotate-ccw2"></i> Reassign</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-pencil7"></i> Edit task</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-cross2"></i> Remove</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr role="row" class="odd">
+                                                <td class="sorting_1">#11</td>
+
+                                                <td>
+                                                    <div class="font-weight-semibold"><a
+                                                            href="task_manager_detailed.html">Merge latest changes</a>
+                                                    </div>
+                                                    <div class="text-muted">When, while the lovely valley teems with
+                                                        vapour around me..</div>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="badge bg-danger dropdown-toggle"
+                                                            data-toggle="dropdown">Blocker</a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a href="#" class="dropdown-item active"><span
+                                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                                Blocker</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                                High priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                                Normal priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                                Low priority</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <i class="icon-calendar2 mr-2"></i>
+                                                        <input type="text"
+                                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                                            value="16 January, 15" id="dp1711899399184">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <select name="status"
+                                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                                        data-placeholder="Select status" data-fouc="" tabindex="-1"
+                                                        aria-hidden="true" data-select2-id="211">
+                                                        <option value="open">Open</option>
+                                                        <option value="hold">On hold</option>
+                                                        <option value="resolved">Resolved</option>
+                                                        <option value="dublicate">Dublicate</option>
+                                                        <option value="invalid">Invalid</option>
+                                                        <option value="wontfix" selected="selected"
+                                                            data-select2-id="213">Wontfix</option>
+                                                        <option value="closed">Closed</option>
+                                                    </select><span
+                                                        class="select2 select2-container select2-container--default"
+                                                        dir="ltr" data-select2-id="212" style="width: 100%;"><span
+                                                            class="selection"><span
+                                                                class="select2-selection select2-selection--single"
+                                                                role="combobox" aria-haspopup="true"
+                                                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                                                aria-labelledby="select2-status-7b-container"><span
+                                                                    class="select2-selection__rendered"
+                                                                    id="select2-status-7b-container" role="textbox"
+                                                                    aria-readonly="true"
+                                                                    title="Wontfix">Wontfix</span><span
+                                                                    class="select2-selection__arrow"
+                                                                    role="presentation"><b
+                                                                        role="presentation"></b></span></span></span><span
+                                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"
+                                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                                            class="icon-plus22"></i></a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="list-icons">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-alarm-add"></i> Check in</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-attachment"></i> Attach
+                                                                    screenshot</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-rotate-ccw2"></i> Reassign</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-pencil7"></i> Edit task</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-cross2"></i> Remove</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr role="row" class="even">
+                                                <td class="sorting_1">#10</td>
+
+                                                <td>
+                                                    <div class="font-weight-semibold"><a
+                                                            href="task_manager_detailed.html">Create landing page for a
+                                                            new app</a></div>
+                                                    <div class="text-muted">A few stray gleams steal into the inner
+                                                        sanctuary, I throw..</div>
+                                                </td>
+                                                <td>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="badge bg-orange dropdown-toggle"
+                                                            data-toggle="dropdown">High</a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                                Blocker</a>
+                                                            <a href="#" class="dropdown-item active"><span
+                                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                                High priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                                Normal priority</a>
+                                                            <a href="#" class="dropdown-item"><span
+                                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                                Low priority</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <i class="icon-calendar2 mr-2"></i>
+                                                        <input type="text"
+                                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                                            value="17 January, 15" id="dp1711899399185">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <select name="status"
+                                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                                        data-placeholder="Select status" data-fouc="" tabindex="-1"
+                                                        aria-hidden="true" data-select2-id="220">
+                                                        <option value="open" data-select2-id="222">Open</option>
+                                                        <option value="hold">On hold</option>
+                                                        <option value="resolved">Resolved</option>
+                                                        <option value="dublicate">Dublicate</option>
+                                                        <option value="invalid">Invalid</option>
+                                                        <option value="wontfix">Wontfix</option>
+                                                        <option value="closed">Closed</option>
+                                                    </select><span
+                                                        class="select2 select2-container select2-container--default"
+                                                        dir="ltr" data-select2-id="221" style="width: 100%;"><span
+                                                            class="selection"><span
+                                                                class="select2-selection select2-selection--single"
+                                                                role="combobox" aria-haspopup="true"
+                                                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                                                aria-labelledby="select2-status-g9-container"><span
+                                                                    class="select2-selection__rendered"
+                                                                    id="select2-status-g9-container" role="textbox"
+                                                                    aria-readonly="true" title="Open">Open</span><span
+                                                                    class="select2-selection__arrow"
+                                                                    role="presentation"><b
+                                                                        role="presentation"></b></span></span></span><span
+                                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                </td>
+                                                <td>
+                                                    <a href="#"><img
+                                                            src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                                    <a href="#"
+                                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                                            class="icon-plus22"></i></a>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="list-icons">
+                                                        <div class="dropdown">
+                                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-right">
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-alarm-add"></i> Check in</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-attachment"></i> Attach
+                                                                    screenshot</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-rotate-ccw2"></i> Reassign</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-pencil7"></i> Edit task</a>
+                                                                <a href="#" class="dropdown-item"><i
+                                                                        class="icon-cross2"></i> Remove</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="datatable-footer">
+
+                                    <div class="dataTables_paginate paging_simple_numbers"
+                                        id="DataTables_Table_0_paginate"><a class="paginate_button previous disabled"
+                                            aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0"
+                                            id="DataTables_Table_0_previous">←</a><span><a
+                                                class="paginate_button current" aria-controls="DataTables_Table_0"
+                                                data-dt-idx="1" tabindex="0">1</a></span><a
+                                            class="paginate_button next disabled" aria-controls="DataTables_Table_0"
+                                            data-dt-idx="2" tabindex="0" id="DataTables_Table_0_next">→</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /task manager  -->
+
+                    <!--  inbox page  -->
+                    <div class="tab-pane fade" id="vertical-left-tab3">
+                        <div class="card-group-control card-group-control-right" id="accordion-group">
+                            <div class="card mb-0 rounded-bottom-0 border-bottom-0">
+                                <div class="card-header">
+                                    <h6 class="card-title">
+                                        <a data-toggle="collapse" class="text-default collapsed"
+                                            href="#accordion-item-group1" aria-expanded="false">
+                                            <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                class="rounded-circle mr-2" width="22" height="22" alt="">
+                                            Text Sender 01
+                                            <span class="badge badge-mark border-success ml-2"></span>
+                                        </a>
+                                    </h6>
+                                </div>
+
+                                <div id="accordion-item-group1" class="collapse" data-parent="#accordion-group"
+                                    style="">
+                                    <div class="card-body">
+                                        <ul class="media-list media-chat mb-3">
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Crud reran and while much withdrew
+                                                        ardent much crab hugely met dizzily that more jeez gent
+                                                        equivalent unsafely far one hesitant so therefore.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Tue, 10:28 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Far squid and that hello fidgeted and
+                                                        when. As this oh darn but slapped casually husky sheared that
+                                                        cardinal hugely one and some unnecessary factiously hedgehog a
+                                                        feeling one rudely much</div>
+                                                    <div class="font-size-sm text-muted mt-2">Mon, 10:24 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Tolerantly some understood this
+                                                        stubbornly after snarlingly frog far added insect into snorted
+                                                        more auspiciously heedless drunkenly jeez foolhardy oh.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Wed, 4:20 pm <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media content-divider justify-content-center text-muted mx-0">
+                                                <span class="px-2">New messages</span>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Satisfactorily strenuously while
+                                                        sleazily dear frustratingly insect menially some shook far
+                                                        sardonic badger telepathic much jeepers immature much hey.</div>
+                                                    <div class="font-size-sm text-muted mt-2">2 hours ago <a href="#"><i
+                                                                class="icon-pin-alt ml-2 text-muted"></i></a></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Grunted smirked and grew less but
+                                                        rewound much despite and impressive via alongside out and gosh
+                                                        easy manatee dear ineffective yikes.</div>
+                                                    <div class="font-size-sm text-muted mt-2">13 minutes ago <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item"><i class="icon-menu"></i></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <textarea name="enter-message" class="form-control mb-3" rows="3" cols="1"
+                                            placeholder="Enter your message..."></textarea>
+
+                                        <div class="d-flex align-items-center">
+                                            <div class="list-icons list-icons-extended">
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send photo"><i
+                                                        class="icon-file-picture"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send video"><i
+                                                        class="icon-file-video"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send file"><i
+                                                        class="icon-file-plus"></i></a>
+                                            </div>
+
+                                            <button type="button"
+                                                class="btn bg-teal-400 btn-labeled btn-labeled-right ml-auto"><b><i
+                                                        class="icon-paperplane"></i></b> Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-0 rounded-0 border-bottom-0">
+                                <div class="card-header">
+                                    <h6 class="card-title">
+                                        <a class="text-default collapsed" data-toggle="collapse"
+                                            href="#accordion-item-group2" aria-expanded="false">
+                                            <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                class="rounded-circle mr-2" width="22" height="22" alt="">
+                                            Text Sender 02
+                                            <span class="badge badge-mark border-danger ml-2"></span>
+                                        </a>
+                                    </h6>
+                                </div>
+
+                                <div id="accordion-item-group2" class="collapse" data-parent="#accordion-group"
+                                    style="">
+                                    <div class="card-body">
+                                        <ul class="media-list media-chat mb-3">
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Crud reran and while much withdrew
+                                                        ardent much crab hugely met dizzily that more jeez gent
+                                                        equivalent unsafely far one hesitant so therefore.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Tue, 10:28 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Far squid and that hello fidgeted and
+                                                        when. As this oh darn but slapped casually husky sheared that
+                                                        cardinal hugely one and some unnecessary factiously hedgehog a
+                                                        feeling one rudely much</div>
+                                                    <div class="font-size-sm text-muted mt-2">Mon, 10:24 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Tolerantly some understood this
+                                                        stubbornly after snarlingly frog far added insect into snorted
+                                                        more auspiciously heedless drunkenly jeez foolhardy oh.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Wed, 4:20 pm <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media content-divider justify-content-center text-muted mx-0">
+                                                <span class="px-2">New messages</span>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Satisfactorily strenuously while
+                                                        sleazily dear frustratingly insect menially some shook far
+                                                        sardonic badger telepathic much jeepers immature much hey.</div>
+                                                    <div class="font-size-sm text-muted mt-2">2 hours ago <a href="#"><i
+                                                                class="icon-pin-alt ml-2 text-muted"></i></a></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Grunted smirked and grew less but
+                                                        rewound much despite and impressive via alongside out and gosh
+                                                        easy manatee dear ineffective yikes.</div>
+                                                    <div class="font-size-sm text-muted mt-2">13 minutes ago <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item"><i class="icon-menu"></i></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <textarea name="enter-message" class="form-control mb-3" rows="3" cols="1"
+                                            placeholder="Enter your message..."></textarea>
+
+                                        <div class="d-flex align-items-center">
+                                            <div class="list-icons list-icons-extended">
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send photo"><i
+                                                        class="icon-file-picture"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send video"><i
+                                                        class="icon-file-video"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send file"><i
+                                                        class="icon-file-plus"></i></a>
+                                            </div>
+
+                                            <button type="button"
+                                                class="btn bg-teal-400 btn-labeled btn-labeled-right ml-auto"><b><i
+                                                        class="icon-paperplane"></i></b> Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-0 rounded-0 border-bottom-0">
+                                <div class="card-header">
+                                    <h6 class="card-title">
+                                        <a class="text-default collapsed" data-toggle="collapse"
+                                            href="#accordion-item-group3" aria-expanded="false">
+                                            <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                class="rounded-circle mr-2" width="22" height="22" alt="">
+                                            Text Sender 03
+                                            <span class="badge badge-mark border-primary ml-2"></span>
+                                        </a>
+                                    </h6>
+                                </div>
+
+                                <div id="accordion-item-group3" class="collapse" data-parent="#accordion-group"
+                                    style="">
+                                    <div class="card-body">
+                                        <ul class="media-list media-chat mb-3">
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Crud reran and while much withdrew
+                                                        ardent much crab hugely met dizzily that more jeez gent
+                                                        equivalent unsafely far one hesitant so therefore.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Tue, 10:28 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Far squid and that hello fidgeted and
+                                                        when. As this oh darn but slapped casually husky sheared that
+                                                        cardinal hugely one and some unnecessary factiously hedgehog a
+                                                        feeling one rudely much</div>
+                                                    <div class="font-size-sm text-muted mt-2">Mon, 10:24 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Tolerantly some understood this
+                                                        stubbornly after snarlingly frog far added insect into snorted
+                                                        more auspiciously heedless drunkenly jeez foolhardy oh.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Wed, 4:20 pm <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media content-divider justify-content-center text-muted mx-0">
+                                                <span class="px-2">New messages</span>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Satisfactorily strenuously while
+                                                        sleazily dear frustratingly insect menially some shook far
+                                                        sardonic badger telepathic much jeepers immature much hey.</div>
+                                                    <div class="font-size-sm text-muted mt-2">2 hours ago <a href="#"><i
+                                                                class="icon-pin-alt ml-2 text-muted"></i></a></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Grunted smirked and grew less but
+                                                        rewound much despite and impressive via alongside out and gosh
+                                                        easy manatee dear ineffective yikes.</div>
+                                                    <div class="font-size-sm text-muted mt-2">13 minutes ago <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item"><i class="icon-menu"></i></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <textarea name="enter-message" class="form-control mb-3" rows="3" cols="1"
+                                            placeholder="Enter your message..."></textarea>
+
+                                        <div class="d-flex align-items-center">
+                                            <div class="list-icons list-icons-extended">
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send photo"><i
+                                                        class="icon-file-picture"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send video"><i
+                                                        class="icon-file-video"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send file"><i
+                                                        class="icon-file-plus"></i></a>
+                                            </div>
+
+                                            <button type="button"
+                                                class="btn bg-teal-400 btn-labeled btn-labeled-right ml-auto"><b><i
+                                                        class="icon-paperplane"></i></b> Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card rounded-top-0">
+                                <div class="card-header">
+                                    <h6 class="card-title">
+                                        <a class="collapsed text-default" data-toggle="collapse"
+                                            href="#accordion-item-group4">
+                                            <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                class="rounded-circle mr-2" width="22" height="22" alt="">
+                                            Text Sender 04
+                                            <span class="badge badge-mark border-grey-300 ml-2"></span>
+                                        </a>
+                                    </h6>
+                                </div>
+
+                                <div id="accordion-item-group4" class="collapse" data-parent="#accordion-group">
+                                    <div class="card-body">
+                                        <ul class="media-list media-chat mb-3">
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Crud reran and while much withdrew
+                                                        ardent much crab hugely met dizzily that more jeez gent
+                                                        equivalent unsafely far one hesitant so therefore.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Tue, 10:28 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Far squid and that hello fidgeted and
+                                                        when. As this oh darn but slapped casually husky sheared that
+                                                        cardinal hugely one and some unnecessary factiously hedgehog a
+                                                        feeling one rudely much</div>
+                                                    <div class="font-size-sm text-muted mt-2">Mon, 10:24 am <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Tolerantly some understood this
+                                                        stubbornly after snarlingly frog far added insect into snorted
+                                                        more auspiciously heedless drunkenly jeez foolhardy oh.</div>
+                                                    <div class="font-size-sm text-muted mt-2">Wed, 4:20 pm <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media content-divider justify-content-center text-muted mx-0">
+                                                <span class="px-2">New messages</span>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Satisfactorily strenuously while
+                                                        sleazily dear frustratingly insect menially some shook far
+                                                        sardonic badger telepathic much jeepers immature much hey.</div>
+                                                    <div class="font-size-sm text-muted mt-2">2 hours ago <a href="#"><i
+                                                                class="icon-pin-alt ml-2 text-muted"></i></a></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="media">
+                                                <div class="mr-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <div class="media-chat-item">Grunted smirked and grew less but
+                                                        rewound much despite and impressive via alongside out and gosh
+                                                        easy manatee dear ineffective yikes.</div>
+                                                    <div class="font-size-sm text-muted mt-2">13 minutes ago <a
+                                                            href="#"><i class="icon-pin-alt ml-2 text-muted"></i></a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="media media-chat-item-reverse">
+                                                <div class="media-body">
+                                                    <div class="media-chat-item"><i class="icon-menu"></i></div>
+                                                </div>
+
+                                                <div class="ml-3">
+                                                    <a href="#">
+                                                        <img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                                            class="rounded-circle" width="40" height="40" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <textarea name="enter-message" class="form-control mb-3" rows="3" cols="1"
+                                            placeholder="Enter your message..."></textarea>
+
+                                        <div class="d-flex align-items-center">
+                                            <div class="list-icons list-icons-extended">
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send photo"><i
+                                                        class="icon-file-picture"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send video"><i
+                                                        class="icon-file-video"></i></a>
+                                                <a href="#" class="list-icons-item" data-popup="tooltip"
+                                                    data-container="body" title="" data-original-title="Send file"><i
+                                                        class="icon-file-plus"></i></a>
+                                            </div>
+
+                                            <button type="button"
+                                                class="btn bg-teal-400 btn-labeled btn-labeled-right ml-auto"><b><i
+                                                        class="icon-paperplane"></i></b> Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  inbox page  -->
+
+                    <div class="tab-pane fade" id="comment-archived2">
+                        <table class="table tasks-list table-lg dataTable no-footer" id="DataTables_Table" role="grid"
+                            aria-describedby="DataTables_Table_0_info">
+                            <tr role="row" class="odd">
+                                <td class="sorting_1">#25</td>
+
+                                <td>
+                                    <div class="font-weight-semibold"><a href="#comment-archived" data-toggle="tab">Save
+                                            the
+                                            children</a></div>
+                                    <div class="text-muted">Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Quos, rerum.</div>
+                                </td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a href="#" class="badge bg-danger dropdown-toggle"
+                                            data-toggle="dropdown">Archived</a>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a href="#" class="dropdown-item active"><span
+                                                    class="badge badge-mark mr-2 bg-danger border-danger"></span>
+                                                Blocker</a>
+                                            <a href="#" class="dropdown-item"><span
+                                                    class="badge badge-mark mr-2 bg-orange border-orange"></span>
+                                                High priority</a>
+                                            <a href="#" class="dropdown-item"><span
+                                                    class="badge badge-mark mr-2 bg-primary border-primary"></span>
+                                                Normal priority</a>
+                                            <a href="#" class="dropdown-item"><span
+                                                    class="badge badge-mark mr-2 bg-success border-success"></span>
+                                                Low priority</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-inline-flex align-items-center">
+                                        <i class="icon-calendar2 mr-2"></i>
+                                        <input type="text"
+                                            class="form-control datepicker p-0 border-0 bg-transparent hasDatepicker"
+                                            value="22 January, 15" id="dp1711899399170">
+                                    </div>
+                                </td>
+                                <td>
+                                    <select name="status"
+                                        class="form-control form-control-select2 select2-hidden-accessible"
+                                        data-placeholder="Select status" data-fouc="" tabindex="-1" aria-hidden="true"
+                                        data-select2-id="85">
+                                        <option value="open">Open</option>
+                                        <option value="hold">On hold</option>
+                                        <option value="resolved" selected="selected" data-select2-id="87">Resolved
+                                        </option>
+                                        <option value="dublicate">Dublicate</option>
+                                        <option value="invalid">Invalid</option>
+                                        <option value="wontfix">Wontfix</option>
+                                        <option value="closed">Closed</option>
+                                    </select><span class="select2 select2-container select2-container--default"
+                                        dir="ltr" data-select2-id="86" style="width: 100%;"><span
+                                            class="selection"><span class="select2-selection select2-selection--single"
+                                                role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0"
+                                                aria-disabled="false"
+                                                aria-labelledby="select2-status-5c-container"><span
+                                                    class="select2-selection__rendered" id="select2-status-5c-container"
+                                                    role="textbox" aria-readonly="true"
+                                                    title="Resolved">Resolved</span><span
+                                                    class="select2-selection__arrow" role="presentation"><b
+                                                        role="presentation"></b></span></span></span><span
+                                            class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                </td>
+                                <td>
+                                    <a href="#"><img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                    <a href="#"><img src="../../../../global_assets/images/placeholders/placeholder.jpg"
+                                            class="rounded-circle" width="32" height="32" alt=""></a>
+                                    <a href="#"
+                                        class="btn btn-icon bg-transparent btn-sm border-slate-300 text-slate rounded-round border-dashed"><i
+                                            class="icon-plus22"></i></a>
+                                </td>
+                                <td class="text-center">
+                                    <div class="list-icons">
+                                        <div class="dropdown">
+                                            <a href="#" class="list-icons-item dropdown-toggle caret-0"
+                                                data-toggle="dropdown"><i class="icon-menu9"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a href="#" class="dropdown-item"><i class="icon-alarm-add"></i> Check
+                                                    in</a>
+                                                <a href="#" class="dropdown-item"><i class="icon-attachment"></i> Attach
+                                                    screenshot</a>
+                                                <a href="#" class="dropdown-item"><i class="icon-rotate-ccw2"></i>
+                                                    Reassign</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a href="#" class="dropdown-item"><i class="icon-pencil7"></i> Edit
+                                                    task</a>
+                                                <a href="#" class="dropdown-item"><i class="icon-cross2"></i> Remove</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- comment archived page  -->
+
+                    <div class="tab-pane fade" id="comment-archived">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <iframe src="assets/docs/letter.pdf"
+                                    style="width:100%; height:640px; border: 3px solid black;" frameborder="0"></iframe>
+                            </div>
+                            <div class="col-lg-5">
+                                <!-- Timeline -->
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header header-elements-sm-inline">
+                                                    <h6 class="card-title">Save the children</h6>
+                                                    <div class="header-elements">
+                                                        <span><i
+                                                                class="icon-checkmark-circle mr-2 text-success"></i>Uploaded
+                                                            -
+                                                            5 hours
+                                                            ago</span>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-body">
+
+
+                                                    <h6 class="mb-3">
+                                                        <i class="icon-comment-discussion mr-2"></i>
+                                                        Comments by <strong>D CW&IT</strong>
+
+                                                    </h6>
+
+                                                    <blockquote class="blockquote blockquote-bordered py-2 pl-3 mb-0">
+                                                        <p class="mb-2 font-size-base">Lorem ipsum dolor sit amet,
+                                                            consectetur
+                                                            adipiscing elit. Phasellus eget tincidunt lectus. Duis diam
+                                                            orci,
+                                                            viverra quis nibh elementum, ultrices sollicitudin nisi.
+                                                            Vivamus eu
+                                                            libero augue. Pellentesque dictum, dui nec pellentesque
+                                                            vestibulum,
+                                                            justo sapien iaculis neque, at maximus nisl lectus vitae
+                                                            magna. Nunc
+                                                            condimentum vehicula tortor et semper. Nunc vehicula dolor
+                                                            neque, at
+                                                            porttitor arcu ullamcorper vitae.</p>
+                                                        <footer class="blockquote-footer">Date <cite
+                                                                title="Source Title">31
+                                                                March, 2024</cite></footer>
+                                                    </blockquote>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header header-elements-sm-inline">
+                                                    <h6 class="card-title">Save the children</h6>
+                                                    <div class="header-elements">
+                                                        <span><i class="icon-checkmark-circle mr-2 text-success"></i>
+                                                            49 minutes
+                                                            ago</span>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-body">
+
+
+                                                    <h6 class="mb-3">
+                                                        <i class="icon-comment-discussion mr-2"></i>
+                                                        Comments by <strong>DD CW&IT (CW)</strong>
+
+
+                                                    </h6>
+
+                                                    <blockquote class="blockquote blockquote-bordered py-2 pl-3 mb-0">
+                                                        <p class="mb-2 font-size-base">Lorem ipsum dolor sit amet,
+                                                            consectetur
+                                                            adipiscing elit. Phasellus eget tincidunt lectus.</p>
+                                                        <footer class="blockquote-footer">Date <cite
+                                                                title="Source Title">31
+                                                                March, 2024</cite></footer>
+                                                    </blockquote>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+
+
+
+                                                <div class="card-footer bg-transparent">
+
+
+                                                    <div class="card border-0 w-100">
+
+                                                        <p class="text-danger">Action for
+                                                            this
+                                                            document has been archived/closed.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <!-- /blog post -->
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ comment archived page  -->
+
+                    <!-- comment history page  -->
+                    <div class="tab-pane fade" id="comment-history">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <iframe src="assets/docs/letter.pdf"
+                                    style="width:100%; height:640px; border: 3px solid black;" frameborder="0"></iframe>
+                            </div>
+                            <div class="col-lg-5">
+                                <!-- Timeline -->
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header header-elements-sm-inline">
+                                                    <h6 class="card-title">Save the children</h6>
+                                                    <div class="header-elements">
+                                                        <span><i
+                                                                class="icon-checkmark-circle mr-2 text-success"></i>Uploaded
+                                                            -
+                                                            5 hours
+                                                            ago</span>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-body">
+
+
+                                                    <h6 class="mb-3">
+                                                        <i class="icon-comment-discussion mr-2"></i>
+                                                        Comments by <strong>D CW&IT</strong>
+
+                                                    </h6>
+
+                                                    <blockquote class="blockquote blockquote-bordered py-2 pl-3 mb-0">
+                                                        <p class="mb-2 font-size-base">Lorem ipsum dolor sit amet,
+                                                            consectetur
+                                                            adipiscing elit. Phasellus eget tincidunt lectus. Duis diam
+                                                            orci,
+                                                            viverra quis nibh elementum, ultrices sollicitudin nisi.
+                                                            Vivamus eu
+                                                            libero augue. Pellentesque dictum, dui nec pellentesque
+                                                            vestibulum,
+                                                            justo sapien iaculis neque, at maximus nisl lectus vitae
+                                                            magna. Nunc
+                                                            condimentum vehicula tortor et semper. Nunc vehicula dolor
+                                                            neque, at
+                                                            porttitor arcu ullamcorper vitae.</p>
+                                                        <footer class="blockquote-footer">Date <cite
+                                                                title="Source Title">31
+                                                                March, 2024</cite></footer>
+                                                    </blockquote>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header header-elements-sm-inline">
+                                                    <h6 class="card-title">Save the children</h6>
+                                                    <div class="header-elements">
+                                                        <span><i class="icon-checkmark-circle mr-2 text-success"></i>
+                                                            49 minutes
+                                                            ago</span>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-body">
+
+
+                                                    <h6 class="mb-3">
+                                                        <i class="icon-comment-discussion mr-2"></i>
+                                                        Comments by <strong>DD CW&IT (CW)</strong>
+
+
+                                                    </h6>
+
+                                                    <blockquote class="blockquote blockquote-bordered py-2 pl-3 mb-0">
+                                                        <p class="mb-2 font-size-base">Lorem ipsum dolor sit amet,
+                                                            consectetur
+                                                            adipiscing elit. Phasellus eget tincidunt lectus.</p>
+                                                        <footer class="blockquote-footer">Date <cite
+                                                                title="Source Title">31
+                                                                March, 2024</cite></footer>
+                                                    </blockquote>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+
+
+
+                                                <div class="card-footer bg-transparent">
+
+
+                                                    <div class="card border-0 w-100">
+
+
+                                                        <div>
+                                                            <div class="card-body">
+                                                                <form action="">
+                                                                    <textarea name="reply-comment" id="reply-comment"
+                                                                        cols="30" rows="5" class="w-100"
+                                                                        placeholder="Enter your opinion"></textarea>
+                                                                    <div class="form-group">
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio"
+                                                                                    class="form-check-input"
+                                                                                    name="radio-unstyled-inline-left"
+                                                                                    checked="">
+                                                                                Regular
+                                                                            </label>
+                                                                        </div>
+
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio"
+                                                                                    class="form-check-input"
+                                                                                    name="radio-unstyled-inline-left">
+                                                                                Immediate
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <button type="button"
+                                                                        class="btn bg-info-400 access-disable float-right">Archive/Close</button>
+
+
+                                                                    <p class="mt-5" data-select2-id="299">
+                                                                        <select data-placeholder="Forward to"
+                                                                            class="form-control select-access-enable select2-hidden-accessible"
+                                                                            data-fouc="" data-select2-id="193"
+                                                                            tabindex="-1" aria-hidden="true">
+                                                                            <option data-select2-id="195"></option>
+                                                                            <option value="CA" data-select2-id="303">
+                                                                                Appointment
+                                                                                X, Office x
+                                                                            </option>
+                                                                            <option value="AZ" data-select2-id="304">
+                                                                                Appointment
+                                                                                Y, Office y
+                                                                            </option>
+                                                                            <option value="CO" data-select2-id="305">
+                                                                                Appointment
+                                                                                Z, Office z
+                                                                            </option>
+
+                                                                        </select><span
+                                                                            class="select2 select2-container select2-container--default select2-container--below"
+                                                                            dir="ltr" data-select2-id="194"
+                                                                            style="width: 100%;"><span
+                                                                                class="selection"></span><span
+                                                                                class="dropdown-wrapper"
+                                                                                aria-hidden="true"></span></span>
+                                                                        <button type="button"
+                                                                            class="btn bg-success-400 access-enable float-right">Forward</button>
+                                                                    </p>
+
+
+                                                                </form>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <!-- /blog post -->
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ comment history page  -->
+
+                    <!-- reply page  -->
+                    <div class="tab-pane fade" id="reply-page">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <iframe src="assets/docs/letter.pdf"
+                                    style="width:100%; height:640px; border: 3px solid black;" frameborder="0"></iframe>
+                            </div>
+                            <div class="col-lg-5">
+                                <!-- Timeline -->
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header header-elements-sm-inline">
+                                                    <h6 class="card-title">Save the children</h6>
+                                                    <div class="header-elements">
+                                                        <span><i
+                                                                class="icon-checkmark-circle mr-2 text-success"></i>Uploaded
+                                                            -
+                                                            5 hours
+                                                            ago</span>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-body">
+
+
+                                                    <h6 class="mb-3">
+                                                        <i class="icon-comment-discussion mr-2"></i>
+                                                        Comments by <strong>D CW&IT</strong>
+
+                                                    </h6>
+
+                                                    <blockquote class="blockquote blockquote-bordered py-2 pl-3 mb-0">
+                                                        <p class="mb-2 font-size-base">Lorem ipsum dolor sit amet,
+                                                            consectetur
+                                                            adipiscing elit. Phasellus eget tincidunt lectus. Duis diam
+                                                            orci,
+                                                            viverra quis nibh elementum, ultrices sollicitudin nisi.
+                                                            Vivamus eu
+                                                            libero augue. Pellentesque dictum, dui nec pellentesque
+                                                            vestibulum,
+                                                            justo sapien iaculis neque, at maximus nisl lectus vitae
+                                                            magna. Nunc
+                                                            condimentum vehicula tortor et semper. Nunc vehicula dolor
+                                                            neque, at
+                                                            porttitor arcu ullamcorper vitae.</p>
+                                                        <footer class="blockquote-footer">Date <cite
+                                                                title="Source Title">31
+                                                                March, 2024</cite></footer>
+                                                    </blockquote>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+
+
+
+                                                <div class="card-footer bg-transparent">
+
+
+                                                    <div class="card border-0 w-100">
+
+
+                                                        <div>
+                                                            <div class="card-body">
+                                                                <form action="">
+                                                                    <textarea name="reply-comment" id="reply-comment"
+                                                                        cols="30" rows="5" class="w-100"
+                                                                        placeholder="Enter your opinion"></textarea>
+                                                                    <div class="form-group">
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio"
+                                                                                    class="form-check-input"
+                                                                                    name="radio-unstyled-inline-left"
+                                                                                    checked="">
+                                                                                Regular
+                                                                            </label>
+                                                                        </div>
+
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio"
+                                                                                    class="form-check-input"
+                                                                                    name="radio-unstyled-inline-left">
+                                                                                Immediate
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <a href="#comment-archived"
+                                                                        class="btn bg-info-400 access-disable float-right"
+                                                                        data-toggle="tab">Archive/Close</a>
+
+
+                                                                    <p class="mt-5" data-select2-id="299">
+                                                                        <select data-placeholder="Forward to"
+                                                                            class="form-control select-access-enable select2-hidden-accessible"
+                                                                            data-fouc="" data-select2-id="193"
+                                                                            tabindex="-1" aria-hidden="true">
+                                                                            <option data-select2-id="195"></option>
+                                                                            <option value="CA" data-select2-id="303">
+                                                                                Appointment
+                                                                                X, Office x
+                                                                            </option>
+                                                                            <option value="AZ" data-select2-id="304">
+                                                                                Appointment
+                                                                                Y, Office y
+                                                                            </option>
+                                                                            <option value="CO" data-select2-id="305">
+                                                                                Appointment
+                                                                                Z, Office z
+                                                                            </option>
+
+                                                                        </select><span
+                                                                            class="select2 select2-container select2-container--default select2-container--below"
+                                                                            dir="ltr" data-select2-id="194"
+                                                                            style="width: 100%;"><span
+                                                                                class="selection"></span><span
+                                                                                class="dropdown-wrapper"
+                                                                                aria-hidden="true"></span></span>
+                                                                        <a href="#comment-history"
+                                                                            class="btn bg-success-400 access-enable float-right"
+                                                                            data-toggle="tab">Forward</a>
+                                                                    </p>
+
+
+                                                                </form>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <!-- /blog post -->
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- reply page  -->
+
+                    <!-- comment page  -->
+                    <div class="tab-pane fade" id="comment-page">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <iframe src="assets/docs/letter.pdf"
+                                    style="width:100%; height:640px; border: 3px solid black;" frameborder="0"></iframe>
+                            </div>
+                            <div class="col-lg-5">
+                                <!-- Timeline -->
+                                <div class="timeline timeline-left">
+                                    <div class="timeline-container">
+
+                                        <!-- Blog post -->
+                                        <div class="timeline-row">
+                                            <div class="timeline-icon">
+                                                <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header header-elements-sm-inline">
+                                                    <h6 class="card-title">Save the children</h6>
+                                                    <div class="header-elements">
+                                                        <span><i
+                                                                class="icon-checkmark-circle mr-2 text-success"></i>Uploaded
+                                                            -
+                                                            49 minutes
+                                                            ago</span>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-footer bg-transparent">
+
+
+                                                    <div class="card border-0 w-100">
+
+
+                                                        <div>
+                                                            <div class="card-body">
+                                                                <form action="">
+                                                                    <textarea name="reply-comment" id="reply-comment"
+                                                                        cols="30" rows="5" class="w-100"
+                                                                        placeholder="Enter your opinion"></textarea>
+                                                                    <div class="form-group">
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio"
+                                                                                    class="form-check-input"
+                                                                                    name="radio-unstyled-inline-left"
+                                                                                    checked="">
+                                                                                Regular
+                                                                            </label>
+                                                                        </div>
+
+                                                                        <div class="form-check form-check-inline">
+                                                                            <label class="form-check-label">
+                                                                                <input type="radio"
+                                                                                    class="form-check-input"
+                                                                                    name="radio-unstyled-inline-left">
+                                                                                Immediate
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <button type="button"
+                                                                        class="btn bg-info-400 access-disable float-right">Archive/Close</button>
+
+
+                                                                    <p class="mt-5" data-select2-id="299">
+                                                                        <select data-placeholder="Forward to"
+                                                                            class="form-control select-access-enable select2-hidden-accessible"
+                                                                            data-fouc="" data-select2-id="193"
+                                                                            tabindex="-1" aria-hidden="true">
+                                                                            <option data-select2-id="195"></option>
+                                                                            <option value="CA" data-select2-id="303">
+                                                                                Appointment
+                                                                                X, Office x
+                                                                            </option>
+                                                                            <option value="AZ" data-select2-id="304">
+                                                                                Appointment
+                                                                                Y, Office y
+                                                                            </option>
+                                                                            <option value="CO" data-select2-id="305">
+                                                                                Appointment
+                                                                                Z, Office z
+                                                                            </option>
+
+                                                                        </select><span
+                                                                            class="select2 select2-container select2-container--default select2-container--below"
+                                                                            dir="ltr" data-select2-id="194"
+                                                                            style="width: 100%;"><span
+                                                                                class="selection"></span><span
+                                                                                class="dropdown-wrapper"
+                                                                                aria-hidden="true"></span></span>
+                                                                        <a href="#reply-page"
+                                                                            class="btn bg-success-400 access-enable float-right"
+                                                                            data-toggle="tab">Forward</a>
+                                                                    </p>
+
+
+                                                                </form>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <!-- /blog post -->
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ comment page  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ tab content  -->
+</body>
+
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Comment And Feedback</title>
+    <link rel="icon" href="assets/images/logoicon.png" type="image/x-icon">
+
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+        type="text/css">
+    <link href="assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="global_assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="assets/js/main/jquery.min.js"></script>
+    <script src="assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="assets/js/plugins/ui/slinky.min.js"></script>
+    <script src="assets/js/plugins/ui/fab.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="assets/js/plugins/visualization/d3/d3.min.js"></script>
+    <script src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+    <script src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="assets/js/demo_pages/form_select2.js"></script>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/demo_pages/dashboard.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/streamgraph.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/sparklines.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/lines.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/areas.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/donuts.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/bars.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/progress.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/heatmaps.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/pies.js"></script>
+    <script src="assets/js/demo_charts/pages/dashboard/light/bullets.js"></script>
+    <!-- /theme JS files -->
+</head>
+
+<body>
+
+    <div class="navbar navbar-dark navbar-expand-xl mb-2">
+        <div class="navbar-brand">
+            <a href="index.html" class="d-inline-block">
+                <h1 class="text-white">Document Management</h1>
+            </a>
+        </div>
+
+        <div class="d-xl-none">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo1-mobile">
+                <i class="icon-grid3"></i>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-demo1-mobile">
+            <ul class="navbar-nav ml-xl-auto">
+                <li class="nav-item">
+                    <a href="#" class="navbar-nav-link">
+                        <i class="icon-bell2"></i>
+                        <span class="d-xl-none ml-2">Notifications</span>
+                        <span class="badge badge-pill bg-warning-400 ml-auto ml-xl-0">2</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="navbar-nav-link">
+                        <i class="icon-bubbles4"></i>
+                        <span class="d-xl-none ml-2">Messages</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown dropdown-user">
+                    <a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle"
+                        data-toggle="dropdown">
+                        <img src="./assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34"
+                            alt="">
+                        <span>User</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Another action</a>
+                        <a href="#" class="dropdown-item">Something else here</a>
+                        <a href="#" class="dropdown-item">One more line</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="page-content">
+
+        <!-- Main content -->
+        <div class="content-wrapper">
+
+            <!-- Content area -->
+            <div class="content">
+
+
+
+                <div class="row">
+                    <div class="col-lg-7">
+                        <iframe src="assets/docs/letter.pdf" style="width:100%; height:640px; border: 3px solid black;"
+                            frameborder="0"></iframe>
+                    </div>
+                    <div class="col-lg-5">
+                        <!-- Timeline -->
+                        <div class="timeline timeline-left">
+                            <div class="timeline-container">
+
+                                <!-- Blog post -->
+                                <div class="timeline-row">
+                                    <div class="timeline-icon">
+                                        <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header header-elements-sm-inline">
+                                            <h6 class="card-title">Save the children</h6>
+                                            <div class="header-elements">
+                                                <span><i class="icon-checkmark-circle mr-2 text-success"></i>Uploaded -
+                                                    5 hours
+                                                    ago</span>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body">
+
+
+                                            <h6 class="mb-3">
+                                                <i class="icon-comment-discussion mr-2"></i>
+                                                Comments by <strong>D CW&IT</strong>
+
+                                            </h6>
+
+                                            <blockquote class="blockquote blockquote-bordered py-2 pl-3 mb-0">
+                                                <p class="mb-2 font-size-base">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit. Phasellus eget tincidunt lectus. Duis diam orci,
+                                                    viverra quis nibh elementum, ultrices sollicitudin nisi. Vivamus eu
+                                                    libero augue. Pellentesque dictum, dui nec pellentesque vestibulum,
+                                                    justo sapien iaculis neque, at maximus nisl lectus vitae magna. Nunc
+                                                    condimentum vehicula tortor et semper. Nunc vehicula dolor neque, at
+                                                    porttitor arcu ullamcorper vitae.</p>
+                                                <footer class="blockquote-footer">Date <cite title="Source Title">31
+                                                        March, 2024</cite></footer>
+                                            </blockquote>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="timeline-row">
+                                    <div class="timeline-icon">
+                                        <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header header-elements-sm-inline">
+                                            <h6 class="card-title">Save the children</h6>
+                                            <div class="header-elements">
+                                                <span><i class="icon-checkmark-circle mr-2 text-success"></i>
+                                                    49 minutes
+                                                    ago</span>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body">
+
+
+                                            <h6 class="mb-3">
+                                                <i class="icon-comment-discussion mr-2"></i>
+                                                Comments by <strong>DD CW&IT (CW)</strong>
+
+
+                                            </h6>
+
+                                            <blockquote class="blockquote blockquote-bordered py-2 pl-3 mb-0">
+                                                <p class="mb-2 font-size-base">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit. Phasellus eget tincidunt lectus.</p>
+                                                <footer class="blockquote-footer">Date <cite title="Source Title">31
+                                                        March, 2024</cite></footer>
+                                            </blockquote>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="timeline timeline-left">
+                            <div class="timeline-container">
+
+                                <!-- Blog post -->
+                                <div class="timeline-row">
+                                    <div class="timeline-icon">
+                                        <img src="assets/images/placeholders/placeholder.jpg" alt="">
+                                    </div>
+                                    <div class="card">
+
+
+
+                                        <div class="card-footer bg-transparent">
+
+
+                                            <div class="card border-0 w-100">
+
+
+                                                <div>
+                                                    <div class="card-body">
+                                                        <form action="">
+                                                            <textarea name="reply-comment" id="reply-comment" cols="30"
+                                                                rows="5" class="w-100"
+                                                                placeholder="Enter your opinion"></textarea>
+                                                            <div class="form-group">
+                                                                <div class="form-check form-check-inline">
+                                                                    <label class="form-check-label">
+                                                                        <input type="radio" class="form-check-input"
+                                                                            name="radio-unstyled-inline-left"
+                                                                            checked="">
+                                                                        Regular
+                                                                    </label>
+                                                                </div>
+
+                                                                <div class="form-check form-check-inline">
+                                                                    <label class="form-check-label">
+                                                                        <input type="radio" class="form-check-input"
+                                                                            name="radio-unstyled-inline-left">
+                                                                        Immediate
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <button type="button"
+                                                                class="btn bg-info-400 access-disable float-right">Archive/Close</button>
+
+
+                                                            <p class="mt-5" data-select2-id="299">
+                                                                <select data-placeholder="Forward to"
+                                                                    class="form-control select-access-enable select2-hidden-accessible"
+                                                                    data-fouc="" data-select2-id="193" tabindex="-1"
+                                                                    aria-hidden="true">
+                                                                    <option data-select2-id="195"></option>
+                                                                    <option value="CA" data-select2-id="303">Appointment
+                                                                        X, Office x
+                                                                    </option>
+                                                                    <option value="AZ" data-select2-id="304">Appointment
+                                                                        Y, Office y
+                                                                    </option>
+                                                                    <option value="CO" data-select2-id="305">Appointment
+                                                                        Z, Office z
+                                                                    </option>
+
+                                                                </select><span
+                                                                    class="select2 select2-container select2-container--default select2-container--below"
+                                                                    dir="ltr" data-select2-id="194"
+                                                                    style="width: 100%;"><span
+                                                                        class="selection"></span><span
+                                                                        class="dropdown-wrapper"
+                                                                        aria-hidden="true"></span></span>
+                                                                <button type="button"
+                                                                    class="btn bg-success-400 access-enable float-right">Forward</button>
+                                                            </p>
+
+
+                                                        </form>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!-- /blog post -->
+
+
+
+                    </div>
+                </div>
+                <!-- /timeline -->
+
+            </div>
+            <!-- /content area -->
+
+        </div>
+        <!-- /main content -->
+
+    </div>
+    <!-- /page content -->
+
+    <!-- Footer -->
+
+
+    <script src="../../../global_assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
